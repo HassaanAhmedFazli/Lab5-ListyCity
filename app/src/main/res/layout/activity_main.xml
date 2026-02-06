@@ -1,0 +1,31 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_add_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add City" />
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="8dp" />
+
+    <TextView
+        android:id="@+id/delete_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tip: Long-press a city to delete it."
+        android:textSize="12sp"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:paddingTop="8dp" />
+
+</LinearLayout>
